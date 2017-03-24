@@ -3,6 +3,9 @@ from flask_restful import Resource, Api
 import sys
 import time
 
+export http_proxy="http://165.225.104.34:80"
+export https_proxy="https://165.225.104.34:80"
+
 app = Flask(__name__)
 api = Api(app)
 
